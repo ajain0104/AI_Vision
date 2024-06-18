@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/static/css/diabetis.css">
+        <link rel="icon"  href="../static/pictures/doc.jpg">
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="navdiv">
+                <div class="logo">AI Vision</div>
+                <ul>
+                    <li class="l"><a href="#">Home</a></l/i>
+                    <li class="l"><a href="#">Sevices</a></li>
+                    <li class="l"><a href="#">Diseases</a></li>
+                    <li class="l"><a href="#">Symptoms</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="diabetes">
+            <h4>
+                Diabetes
+            </h4>
+            <div class="dia">
+            <p class="diabetes-details">
+                Diabetes is a disease that affects your body’s ability to produce or use insulin. Insulin is a hormone. When your body turns the food you eat into energy (also called sugar or glucose), insulin is released to help transport this energy to the cells. Insulin acts as a “key.” Its chemical message tells the cell to open and receive glucose. If you produce little or no insulin, or are insulin resistant, too much sugar remains in your blood. Blood glucose levels are higher than normal for individuals with diabetes. There are two main types of diabetes: Type 1 and Type 2.
+            </p>
+            <h4>
+                Type 1 diabetes
+            </h4>
+            <p class="diabetes-details">
+                When you are affected with Type 1 diabetes, your pancreas does not produce insulin. Type 1 diabetes, once called juvenile diabetes, is often diagnosed in children or teens. However, it can also occur in adults. This type accounts for 5-10 percent of people with diabetes.
+            </p>
+            <h4>
+                Type 2 diabetes
+            </h4>
+            <p class="diabetes-details">
+                Type 2 diabetes occurs when the body does not produce enough insulin, or when the cells are unable to use insulin properly, which is called insulin resistance. Type 2 diabetes is commonly called “adult-onset diabetes” since it is diagnosed later in life, generally after the age of 45. It accounts for 90-95 percent of people with diabetes. In recent years, Type 2 diabetes has been diagnosed in younger people, including children, more frequently than in the past.
+            </p>
+            </div>
+            <h4>
+                Causes
+            </h4>
+            <p class="diabetes-details">
+                Genetics, lifestyle and environment can be causes of diabetes. Eating an unhealthy diet, being overweight or obese and not exercising enough may play a role in developing diabetes, particularly Type 2 diabetes. Type 1 diabetes is caused by an autoimmune response. The body’s immune system attacks and destroys the insulin producing beta cells in the pancreas.
+            </p>
+            <h4>
+                Symptoms
+            </h4>
+            <div class="symptoms-info">    
+                Extreme thirst
+                <br>
+                Frequent urination
+                <br>
+                Blurry vision
+                <br>
+                Extreme hunger
+                <br>
+                Increased tiredness
+                <br>
+                Unusual weight loss
+                <br>
+            </div>
+            <div class="diabetes-form">
+                <form action="/submit_diabetis" method="POST">
+                    <div class="container2">
+                        <p class="details">General Details:</p>
+                        <div class="container1">
+                           <br>
+                        <p for="Name" class="label">
+                            Name: <br> 
+                      
+                        <input type="text" id="name" name="namee" value="" required> </p>
+                        <p for="Sex" class="label" id="ho1">
+                            Sex:
+                        <input type="radio" id="Sex" name="Sex" value="Male" required> Male 
+                        <input type="radio" id="Sex" name="Sex" value="Female" required> Female 
+                       </p>
+                    </div><br>
+                        <div class="container1">
+                        <p for="date" class="label" id="db">
+                            DOB: <br>
+                      
+                        <input type="Date" id="Date" name="Date" value="Date"  required  >  </p><br>
+                        
+                        <p for="age"  class="age1">
+                            Age: <br>
+                      
+                        <input type="number" id="age" name="age" value="" step="0.01" required >  </p>
+                    </div><br>
+                    <div class="container1">
+                        <p for="Mobile" class="label">
+                            Mobile No. : <br>
+                      
+                        <input type="number" id="mobile" name="mobile" value="" required >  </p>
+                        <br>
+                       
+                        <p for="Address" class="label" id="ho">
+                            Address : <br>
+                      
+                        <input type="textarea" id="Address" name="Address" value=""  required>  </p>
+                        </div><br>
+                        <div class="container">
+                            <div class="container1">
+                        <p for="Pregnancy" class="label">
+                            Pregnancy: <br>
+                      
+                        <input type="number" id="Pregnancy" name="Pregnancy" value=""  required>  </p><br>
+                    
+                        <p for="glucose" class="label" id="ho">
+                            Glucose level:
+                    
+                        <input type="number" id="glucose" name="glucose" value="" step="0.01" required >    </p>
+                    </div><br>
+                    
+                    <div class="container1">
+                        <p for="bp" class="label">
+                            BP: <br>
+                      
+                        <input type="number" id="bp" name="bp" value="" step="0.01" required>  </p><br>
+                    
+                        <p for="skinthickness" class="label" id="ho">
+                            Skinthickness:
+                       
+                        <input type="number" id="skinthickness" name="skinthickness" value="" step="0.01" required > </p>
+                        </div><br>
+                        <div class="container1">
+                        <p for="insulin" class="label">
+                            Insulin: <br>
+                       
+                        <input type="number" id="insulin" name="insulin" value="" step="0.01"  id="ho" required> </p><br>
+                    
+                        <p for="bmi" class="label" id="ho">
+                            Bmi: <br>
+                        <input type="number" id="bmi" name="bmi" value="" step="0.01" required>  </p>
+                        </div><br>
+                        <div class="container1">
+                        <p for="diabetispedigree" class="label" >
+                            Diabetes pedigree:
+                   
+                        <input type="number" id="diabetispedigree" name="diabetispedigree" value="" step="0.01"  required >     </p><br>
+                        </div>
+                        <div class="sub">
+                            <button type="submit" value="Submit" class="submit">Submit</button>
+                            </div>
+                    </div>
+                    
+                    </div>
+                   
+                    </form>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-container">
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/YourPage" target="_blank"><img src="../static/pictures/facebook.jpg" alt="Facebook"></a>
+                    <a href="https://www.linkedin.com/company/your-company" target="_blank"><img src="../static/pictures/linkedin.jpg" alt="LinkedIn"></a>
+                    <a href="https://twitter.com/YourTwitterHandle" target="_blank"><img src="../static/pictures/x.jpg" alt="Twitter"></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p style="color: white;">&copy; 2024 AIVision. All rights reserved.</p>
+            </div>
+        </footer>
+
+    </body>
+</html>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Navbar</title>
+    <link rel="stylesheet" href="/static/css/heart.css">
+    <link rel="icon"  href="../static/pictures/doc.jpg">
+
+</head>
+<body>
+    <nav>
+        <div>
+            <span style="font-weight: bold; font-size: 20px;">AI Vision</span>
+        </div>
+        <div>
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Diseases</a>
+            <a href="#">Symptoms</a>
+        </div>
+    </nav>
+        <h1 class="center attractive-heading">Heart</h1>
+        <div class="diabetes-info">
+            <p>Heart disease is a general term that includes many types of heart problems. It's also called cardiovascular disease, which means heart and blood vessel disease.
+
+                Heart disease is the leading cause of death in the United States, but there are ways to prevent and manage many types of heart disease.</p>
+        </div>
+        <h1 class="center attractive-heading">Symptoms</h1>
+        <div class="symptoms-info">    
+            Chest pain or discomfort
+            <br>
+            Shortness of breath
+            <br>
+
+            Fatigue
+            <br>
+
+            Palpitations
+            <br>
+            Dizziness or lightheadedness
+            <br>
+            Swelling (edema)
+            <br>
+            Nausea or indigestion
+            <br>
+            Cold sweats
+            <br>
+
+        </div>
+        <h1 class="center attractive-heading">Precuations</h1>
+        <div class="symptoms-info">    
+            Don't smoke or eat tobacco <br>
+            Get moving: Aim for at least 30 to 60 minutes of activity daily  <br>
+            Eat a heart-healthy diet  <br>
+            Maintain a healthy weight <br>
+
+            Get quality sleep <br>
+            Manage stress  <br>
+            Get regular health screening tests <br>
+
+        </div>
+
+        <div class="adi">
+            <div class="Heart- form">
+            <form action="/submit_heart" method="post">
+        
+            
+        
+            <div class="container2">
+                <p class="details">General Details:</p>
+                <div class="container1">
+                <br>
+                <p for="Name" class="label">
+                    Name: <br> 
+            
+                <input type="text" id="name" name="namee" value=""> </p>
+                <p for="Sex" class="label" id="ho">
+                    Sex:
+                <input type="radio" id="Sex" name="Sex" value="Male"> Male 
+                <input type="radio" id="Sex" name="Sex" value="Female"> Female 
+            </p>
+            </div><br>
+                <div class="container1">
+                <p for="date" class="label">
+                    DOB: <br>
+            
+                <input type="Date" id="Date" name="Date" value="Date"   >  </p><br>
+                
+                <p for="age"  class="age1">
+                    Age: <br>
+            
+                <input type="number" id="age" name="age" value="" step="0.01" >  </p>
+            </div><br>
+            <div class="container1">
+                <p for="Mobile" class="label">
+                    Mobile No. : <br>
+            
+                <input type="number" id="mobile" name="mobile" value="" >  </p>
+                <br>
+            
+                <p for="Address" class="label" id="ho">
+                    Address : <br>
+            
+                <input type="textarea" id="Address" name="Address" value="" >  </p>
+                </div><br>
+                <div class="container">
+                    <div class="container1">
+                <p for="Chest Pain Types" class="label">
+                    Chest Pain Types: <br>
+            
+                <input type="number" id="Chest Pain Types" name="Chest Pain Types" value="" >  </p><br>
+            
+                <p for="Resting blood pressure:" class="label" id="ho">
+                    Resting blood pressure: level:
+            
+                <input type="number" id="Resting blood pressure:" name="Resting blood pressure:" value="" step="0.01" >    </p>
+            </div><br>
+            
+            <div class="container1">
+                <p for="Serum cholestrol level" class="label">
+                    Serum cholestrol level: <br>
+            
+                <input type="number" id="Serum cholestrol level" name="Serum cholestrol level" value="" step="0.01">  </p><br>
+            
+                <p for="Fasting blood sugar  >120gm/dl" class="label" id="ho">
+                    Fasting blood sugar  >120gm/dl:
+            
+                <input type="number" id="Fasting blood sugar  >120gm/dl" name="Fasting blood sugar  >120gm/dl" value="" step="0.01" > </p>
+                </div><br>
+                <div class="container1">
+                <p for="Resting Electrocardiographic results:" class="label">
+                    Resting Electrocardiographic results:: <br>
+            
+                <input type="number" id="Resting Electrocardiographic results:" name="Resting Electrocardiographic results:" value="" step="0.01"  id="ho"> </p><br>
+            
+                <p for="Maximum Heart Rate Achieved" class="label" id="hi">
+                    Maximum Heart Rate Achieved: <br>
+                <input type="number" id="Maximum Heart Rate Achieved" name="Maximum Heart Rate Achieved" value="" step="0.01">  </p>
+                </div>
+                <br>
+                <div class="container1">
+                    
+            
+                <p for="St depression" class="label" >
+                    ST depression induced by excercise:
+        
+                <input type="number" id="St depression" name="St depression" value="" step="0.01"  >     </p><br>
+                <p for="Slop of the peak" class="label" id="he">
+                    Slop of the peak excercise ST segment:
+        
+                <input type="number" id="Slop of the peak" name="Slop of the peak" value="" step="0.01"  >     </p><br>
+                </div>
+
+                <div class="container1 nn">
+                <p for="major vessels colored " class="label" >
+                    Major vessels colored by flourosopy:
+        
+                <input type="number" id="major vessels colored" name="major vessels colored" value="" step="0.01"  >     </p><br>
+                
+                <p for="Thalassemia" class="label my-3" id="hh" >
+                    Thalassemia:0=normal; 1=Detect :
+        
+                <input type="number" id="thal" name="thal" value="" step="0.01"  >     </p><br>
+                </div>
+                <div class="container1">
+                <p for="Exercise Induced Angina" class="label">
+                    Exercise Induced Angina:
+            
+                <input type="number" id="rate" name="arate" value="" required step="0.01">  </p>
+                </div><br>
+                <div class="sub">
+                    <button type="submit" value="Submit" class="submit">Submit</button>
+                </div>
+            </div>
+            
+            </div>
+        
+            </form>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <div class="footer-container">
+        <div class="social-icons">
+            <a href="https://www.facebook.com/YourPage" target="_blank"><img src="../static/pictures/facebook.jpg" alt="Facebook"></a>
+            <a href="https://www.linkedin.com/company/your-company" target="_blank"><img src="../static/pictures/linkedin.jpg" alt="LinkedIn"></a>
+            <a href="https://twitter.com/YourTwitterHandle" target="_blank"><img src="../static/pictures/x.jpg" alt="Twitter"></a>
+        </div>
+    </div>
+    <div class="copyright">
+        <p style="color: white;">&copy; 2024 AIVision. All rights reserved.</p>
+    </div>
+</footer>
+</html>

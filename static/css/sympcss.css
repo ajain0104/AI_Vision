@@ -1,0 +1,83 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+nav {
+    background-color:#0077b6;
+    color: #fff;
+    padding: 15px 20px;
+    text-align: flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px; 
+    padding: 5px  10px;
+    font-size: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+.center {
+    text-align: center;
+    margin-top: 25px; /* Adjust the top margin as needed */
+}
+.attractive-heading {
+    /* font-family: 'Arial', sans-serif; Example font family */
+    font-size: 48px; /* Example font size */
+    color: #0077b6; /* Example color */
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); Example text shadow */
+    /* letter-spacing: 2px; Example letter spacing */
+}
+
+.symptoms-info {
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.6;
+    color:black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.symptoms-info {
+    text-align: center;
+}
+
+footer {
+    background-color: #0077b6;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.social-icons {
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+}
+
+.copyright {
+    font-size: 14px;
+    color: #666;
+}

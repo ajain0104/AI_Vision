@@ -1,0 +1,261 @@
+*{
+    padding: 0%;
+    margin: 0%;
+  }
+  
+  /* nav */
+  
+  .navbar{
+    background-color:#0077b6;
+    height: 70px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .navdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    margin-top: 10px;
+    font-size: 35px;
+    font-weight: 600;
+    color: whitesmoke;
+  }
+  
+  .l{
+    margin-top: 10px;
+    list-style: none;
+    display: inline-block;
+  }
+  
+  .l a{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    margin-right: 40px;
+  }
+  h4{
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    color:#0077b6;
+  }
+  .covid-details{
+    width: 1000px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: 5px solid #f9f9f9;
+    border-radius: 10px;
+    text-align: left;
+    padding: 20px 40px;
+    background-color: #f9f9f9;
+    box-shadow: -15px -15px 15px rgba(255,255,255,0.2),
+                  15px 15px 15px rgba(0,0,0,0.1),
+                  inset -5px -5px 5px rgba(255,255,255,0.2),
+                  inset 5px 5px 5px rgba(0,0,0,0.1);
+  }
+  .covid{
+    padding: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  #l{
+    margin:15px 0 15px 25px;
+    font-size: 20px;
+  }
+  .symptoms-info{
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-align: left;
+    padding: 20px 40px;
+    background-color: #f9f9f9;
+    text-align: center;
+    box-shadow: -15px -15px 15px rgba(255,255,255,0.2),
+                  15px 15px 15px rgba(0,0,0,0.1),
+                  inset -5px -5px 5px rgba(255,255,255,0.2),
+                  inset 5px 5px 5px rgba(0,0,0,0.1);
+  }
+  form{
+    display: flex;
+    /* width:100%; */
+  }
+  .first{
+    position: relative;
+    left:0;
+    border-top-left-radius:3%;
+    border-bottom-left-radius: 3%;
+  }
+  .second{
+    position: absolute;
+    margin-left: -18%;
+    margin-top: 9%;
+   
+    width:250px;
+  }
+  .details{
+    text-align: center;
+    font-size: 25px;
+    margin:1%;
+    margin-top: 40px;
+    margin-bottom: 2%;
+  }
+  .container2{
+    background-color:#f9f9f9  ;
+    width:100%;
+    margin: 40px;
+    display: block;
+    border-top-right-radius: 3%;
+    border-bottom-right-radius: 3%;
+  }
+  .container1{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 4%;
+  }
+  .container {
+    font-size: 20px;
+    color:black;
+  
+    
+  }
+  .container3{
+    display: flex;
+  }
+  .container{
+    display: block;
+   
+  }
+  input[type="text"],
+  [type="number"],
+  [type="textarea"],
+  [type="date"]
+  
+  {   border: none;
+    font-size:16px;
+    background-color: white;
+    border-radius: 8px;
+    border:0.5px solid grey;
+    color:black;
+    margin-left: 1%;
+    padding:7px;
+  }
+  #ho{
+    margin-left: 21%;
+    color: black;
+  }
+  
+  .age1{
+   margin-left:32%;
+   color:black;
+  }
+  
+  .submit{
+  
+    padding:8px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;  
+    color: white;
+    background-color:#0077b6  ;
+  }
+  .sub{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  }
+  .submit:hover{
+    background-color: #0077b6;
+    cursor: pointer;
+  }
+  .covid-form{
+    width: 1000px;
+    background: transparent;
+    border-radius: 15px;
+    box-shadow: -15px -15px 15px rgba(255,255,255,0.2),
+                  15px 15px 15px rgba(0,0,0,0.1),
+                  inset -5px -5px 5px rgba(255,255,255,0.2),
+                  inset 5px 5px 5px rgba(0,0,0,0.1);
+    margin: auto;
+  }
+  .label{
+    color: black;
+  }
+  #ho1{
+    margin-left: 25%;
+    color: black;
+    margin-top: 25px;
+  }
+  #f{
+    margin-left: 30%;
+    color: black;
+  }
+  #f1{
+    margin-left: 35%;
+    color: black;
+  }
+  #f2{
+    margin-left: 32.5%;
+    color: black;
+  }
+  #f3{
+    margin-left: 28%;
+    color: black;
+  }
+  #f4{
+    margin-left: 33%;
+    color: black;
+  }
+  #f5{
+    margin-left: 31%;
+    color: black;
+  }
+  #f6{
+    margin-left: 23.5%;
+    color: black;
+  }
+  #f7{
+    margin-left: 21.5%;
+    color: black;
+  }
+  footer {
+    background-color: #0077b6;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .social-icons {
+    margin-bottom: 20px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .social-icons img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .copyright {
+    font-size: 14px;
+    color: #666;
+  }

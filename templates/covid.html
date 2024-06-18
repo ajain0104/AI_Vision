@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <link rel="stylesheet" href="/static/css/covid.css">
+        <link rel="icon"  href="../static/pictures/doc.jpg">
+    </header>
+    <body>
+        <nav class="navbar">
+            <div class="navdiv">
+                <div class="logo">AI Vision</div>
+                <ul>
+                    <li class="l"><a href="#">Home</a></li>
+                    <li class="l"><a href="#">Sevices</a></li>
+                    <li class="l"><a href="#">Diseases</a></li>
+                    <li class="l"><a href="#">Symptoms</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="covid">
+            <h4>
+                COVID
+            </h4>
+            <p class="covid-details">
+                coronavirus which is commonly called as covid-19 is an infectious disease is new virus and it spread ratio is very fast covid-19 was first identified December 2019 in vahan City of China but now this virus has spread to almost all countries of the world in which March 2020 the World health organization declared the covid-19 outbreak a pandemic.
+            </p>
+            <h4>
+                PRECAUTIONS
+            </h4>
+            <p class="covid-details">
+                <br>Wash your hands for at least 20 seconds — especially before eating and preparing food, after using the bathroom, after wiping your nose, and after coming in contact with someone who has a cold.<br>
+                <br>Wear a multilayered cloth facemask that fits snugly on your face and covers your mouth, nose and chin as recommended by the CDC.<br>
+                <br>Avoid touching your eyes, nose and mouth to prevent the spread of viruses from your hands.<br>
+                <br>Cover your mouth and nose with a tissue when sneezing and coughing or sneeze and cough into your sleeve. Throw the tissue in the trash. Wash your hands afterward. Never cough or sneeze into your hands!<br>
+                <br>Avoid close contact (within 6 feet) with those who have coughs, colds or are sick. Stay home if you’re sick.<br>
+                <br>Use hand sanitizers that contain at least 60% alcohol if soap and water are not available.<br>
+                <br>Get enough sleep, eat a healthy diet, drink plenty of liquids and exercise if you are able. These steps will strengthen your immune system and help you fight off infections more easily.<br>
+            </p>
+            <h4>
+                SYMPTOMPS
+            </h4>
+            <div class="symptoms-info">    
+                Fever or chills
+                <br>
+                Cough
+                <br>
+                Shortness of breath
+                <br>
+                Tiredness
+                <br>
+                body aches
+                <br>
+                Headaches
+                <br>
+            </div>
+            <div class="covid-form">
+                <form action="/submit_covid_symp" method="post">
+    
+        <div class="container2">
+            <p class="details">General Details</p>
+        
+        <div class="container1">
+        <br>
+            <p for="Name" class="label">
+                Name:
+          
+            <input type="text" id="name" name="namee" value="" required>  </p><br>
+            <p for="Sex" class="label" id="ho1">
+                Sex:
+            <input type="radio" id="Sex" name="Sex" value="Male" required> Male 
+            <input type="radio" id="Sex" name="Sex" value="Female" required> Female 
+           </p>
+        </div><br>
+            <div class="container1">
+            <p for="date" class="label" id="db">
+                DOB:
+          
+            <input type="Date" id="Date" name="Date" value="Date" required>  </p><br>
+            
+            <p for="age" class="age1">
+                Age:
+          
+            <input type="number" id="age" name="age" value="" step="0.01" required>  </p>
+        </div><br>
+        <div class="container1">
+            <p for="Mobile" class="label">
+                Mobile No. :
+          
+            <input type="number" id="mobile" name="mobile" value="" required>  </p>
+            <br>
+            
+            <p for="Address" class="label" id="ho">
+                Address : 
+          
+            <input type="textarea" id="Address" name="Address" value="" required>  </p>
+            </div><br>
+            <div class="container1">
+            <p for="Breathing Problem:" class="label">
+                Breathing Problem:
+          
+            <input type="radio" id="Breath" name="Breath" value="1" required>YES
+            <input type="radio" id="Breath" name="Breath" value="0" required>NO  
+        </p><br><br>
+        
+            <p for="Fever" class="label" id="f">
+                Fever 
+        
+            <input type="radio" id="Fever" name="Fever" value="1" required>YES
+            <input type="radio" id="Fever" name="Fever" value="0" required>NO     </p>
+            </div>
+            <div class="container1">
+            <p for="Dry Cough" class="label">
+                Dry Cough:
+          
+            <input type="radio" id="Cough" name="Cough" value="1" required>YES
+            <input type="radio" id="Cough" name="Cough" value="0" required>NO   </p><br><br>
+        
+            <p for="Sore throat" class="label" id="f1">
+                Sore throat:
+           
+            <input type="radio" id="Throat" name="Throat" value="1" required>YES
+            <input type="radio" id="Throat" name="Throat" value="0" required>NO  </p><br><br>
+        </div>
+        <div class="container1">
+            <p for="Running Nose" class="label">
+                Running Nose:
+           
+            <input type="radio" id="Nose" name="Nose" value="1" required>YES
+            <input type="radio" id="Nose" name="Nose" value="0" required>NO  </p><br><br>
+        
+            <p for="Asthma" class="label" id="f2">
+                Asthma:
+          
+            <input type="radio" id="Asthma" name="Asthma" value="1" required>YES
+            <input type="radio" id="Asthma" name="Asthma" value="0" required>NO   </p><br><br>
+        </div>
+        <div class="container1">
+            <p for="Chronic lung disease" class="label">
+                Chronic lung disease:
+       
+            <input type="radio" id="Chronic" name="Chronic" value="1" required>YES
+            <input type="radio" id="Chronic" name="Chronic" value="0" required>NO      </p><br>
+
+            <p for="Headache" class="label" id="f3">
+                Headache:
+            <input type="radio" id="Headache" name="Headache" value="1" required>YES
+            <input type="radio" id="Headache" name="Headache" value="0" required>NO      </p><br><br>
+</div>
+<div class="container1">
+            <p for="Heart disease" class="label">
+                Heart disease:
+            <input type="radio" id="Heart" name="Heart" value="1" required>YES
+            <input type="radio" id="Heart" name="Heart" value="0" required>NO     </p><br>
+
+            <p for="Diabetes" class="label" id="f4">
+                Diabetes:
+            <input type="radio" id="Diabetes" name="Diabetes" value="1" required>YES
+            <input type="radio" id="Diabetes" name="Diabetes" value="0" required>NO     </p><br><br>
+</div>
+<div class="container1">
+            <p for="Hyper Tention" class="label">
+                Hyper Tention:
+            <input type="radio" id="Hyper" name="Hyper" value="1" required>YES
+            <input type="radio" id="Hyper" name="Hyper" value="0" required>NO     </p><br><br>
+
+            <p for="Fatigue" class="label" id="f2">
+                Fatigue:
+            <input type="radio" id="Fatigue" name="Fatigue" value="1" required>YES
+            <input type="radio" id="Fatigue" name="Fatigue" value="0" required>NO    </p><br><br>
+</div>
+<div class="container1">
+            <p for="Gastrointestinal" class="label">
+                Gastrointestinal:
+                <input type="radio" id="Gastro" name="Gastro" value="1" required>YES
+                <input type="radio" id="Gastro" name="Gastro" value="0" required>NO     </p><br><br>
+
+            <p for="Abroad Travel" class="label" id="f5">
+                Abroad Travel:
+            <input type="radio" id="Abroad" name="Abroad" value="1" required>YES
+            <input type="radio" id="Abroad" name="Abroad" value="0" required>NO     </p><br><br>
+</div>
+<div class="container1">
+            <p for="Contact with covid patient" class="label">
+                Contact with covid patient:
+            <input type="radio" id="Contact" name="Contact" value="1" required>YES
+            <input type="radio" id="Contact" name="Contact" value="0" required>NO    </p><br><br>
+
+            <p for="Attended large gathering" class="label" id="f6">
+                Attended large gathering:
+            <input type="radio" id="Large" name="Large" value="1" required>YES
+            <input type="radio" id="Large" name="Large" value="0" required>NO     </p><br><br>
+</div>
+<div class="container1">
+            <p for="Visited public exposed places" class="label">
+                Visited public exposed places:
+            <input type="radio" id="Visited" name="Visited" value="1" required>YES
+            <input type="radio" id="Visited" name="Visited" value="0" required>NO     </p><br>
+
+            <p for="Family working in public exposed places" class="label" id="f7">
+                Family working in public exposed places:
+            <input type="radio" id="Family" name="Family" value="1" required>YES
+            <input type="radio" id="Family" name="Family" value="0" required>NO     </p><br>
+        </div>
+        <div class="sub">
+            <button type="submit" value="Submit" class="submit">Submit</button>
+        </div>
+        </div>
+       
+        </form>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-container">
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/YourPage" target="_blank"><img src="../static/pictures/facebook.jpg" alt="Facebook"></a>
+                    <a href="https://www.linkedin.com/company/your-company" target="_blank"><img src="../static/pictures/linkedin.jpg" alt="LinkedIn"></a>
+                    <a href="https://twitter.com/YourTwitterHandle" target="_blank"><img src="../static/pictures/x.jpg" alt="Twitter"></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p style="color: white;">&copy; 2024 AIVision. All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,283 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+/* nav */
+
+.navbar{
+    background-color:#0077b6;
+    height: 70px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 10px;
+    font-size: 35px;
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+li{
+    margin-top: 10px;
+    list-style: none;
+    display: inline-block;
+}
+
+li a{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    margin-right: 40px;
+}
+/* nav */
+
+/* header */
+
+.main{
+    margin-top: 1px;
+    height: 720px;
+    width: 100%;
+    background-color: #0077b6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.text{
+    height: 600px;
+    width: 1000px;
+    background:transparent;
+    border-radius: 15px;
+    box-shadow: -15px -15px 15px rgba(255,255,255,0.2),
+                15px 15px 15px rgba(0,0,0,0.1),
+                inset -5px -5px 5px rgba(255,255,255,0.2),
+                inset 5px 5px 5px rgba(0,0,0,0.1);
+    /* display: flex; */
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.photo{
+    margin-left: 100px;
+    height: 600px;
+    width: 600px;
+    border-radius: 25px;
+}
+
+img{
+    height: 600px;
+    width: 600px;
+    border-radius: 25px;   
+}
+
+.wel{
+    margin: 100px;
+    margin-top: 150px;
+}
+
+
+.cr{
+    margin: 100px;
+}
+
+/* header */
+/* section */
+
+section{
+    /* background-color: red; */
+    height: 950px;
+    width: 100%;
+    /* display:flex;
+    justify-content: center; */
+    text-align: center;
+}
+section h1{
+    font-size: 50px;
+    padding-top: 10px;
+}
+.service{
+    margin-top: 50px;
+    display:flex;
+    justify-content:space-evenly;
+    text-align: center;
+}
+.diabetes{
+    background-color: #f9f9f9;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: -15px -15px 15px rgba(255,255,255,0.2),
+                15px 15px 15px rgba(0,0,0,0.1),
+                inset -5px -5px 5px rgba(255,255,255,0.2),
+                inset 5px 5px 5px rgba(0,0,0,0.1);
+    height: 250px;
+    width: 250px;
+}
+
+.diabetes img {
+    padding: 10px;
+    width: 150px; /* Adjust the width as needed */
+    height: 150px; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Add space between icon and text */
+}
+
+.diabetes p {
+    font-size: 25px; /* Adjust the font size as needed */
+    font-weight: bold; /* Make text bold */
+}
+
+.covid{
+    background-color: #f9f9f9;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: -15px -15px 15px rgba(255,255,255,0.2),
+                15px 15px 15px rgba(0,0,0,0.1),
+                inset -5px -5px 5px rgba(255,255,255,0.2),
+                inset 5px 5px 5px rgba(0,0,0,0.1);
+    height: 250px;
+    width: 250px;
+}
+
+.covid img {
+    padding: 10px;
+    width: 150px; /* Adjust the width as needed */
+    height: 150px; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Add space between icon and text */
+}
+
+.covid p {
+    font-size: 25px; /* Adjust the font size as needed */
+    font-weight: bold; /* Make text bold */
+}
+
+.lungs{
+    background-color: #f9f9f9;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: -15px -15px 15px rgba(255,255,255,0.2),
+                15px 15px 15px rgba(0,0,0,0.1),
+                inset -5px -5px 5px rgba(255,255,255,0.2),
+                inset 5px 5px 5px rgba(0,0,0,0.1);
+    height: 250px;
+    width: 250px;
+}
+
+.lungs img {
+    padding: 10px;
+    width: 150px; /* Adjust the width as needed */
+    height: 150px; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Add space between icon and text */
+}
+
+.lungs p {
+    font-size: 25px; /* Adjust the font size as needed */
+    font-weight: bold; /* Make text bold */
+}
+
+.heart{
+    background-color: #f9f9f9;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: -15px -15px 15px rgba(255,255,255,0.2),
+                15px 15px 15px rgba(0,0,0,0.1),
+                inset -5px -5px 5px rgba(255,255,255,0.2),
+                inset 5px 5px 5px rgba(0,0,0,0.1);
+    height: 250px;
+    width: 250px;
+}
+
+.heart img {
+    padding: 10px;
+    width: 150px; /* Adjust the width as needed */
+    height: 150px; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Add space between icon and text */
+}
+
+.heart p {
+    font-size: 25px; /* Adjust the font size as needed */
+    font-weight: bold; /* Make text bold */
+}
+
+section .about{
+    margin-top: 50px;
+    height: 600px;
+    background-color: whitesmoke;
+}
+
+section .about .pama{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+
+section .about .pa{
+    background-color: whitesmoke;
+    border-radius: 15px;
+    box-shadow: -15px -15px 15px rgba(255,255,255,0.2),
+                15px 15px 15px rgba(0,0,0,0.1),
+                inset -5px -5px 5px rgba(255,255,255,0.2),
+                inset 5px 5px 5px rgba(0,0,0,0.1);
+    height: 350px;
+    width: 300px;
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 25px;
+    padding: 10px;
+}
+
+section .about .ma{
+    background-color: whitesmoke;
+    border-radius: 15px;
+    box-shadow: -15px -15px 15px rgba(255,255,255,0.2),
+                15px 15px 15px rgba(0,0,0,0.1),
+                inset -5px -5px 5px rgba(255,255,255,0.2),
+                inset 5px 5px 5px rgba(0,0,0,0.1);
+    height: 350px;
+    width: 1200px;
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 25px;
+    padding: 10px;
+}
+/* section */
+/* footer */
+footer {
+    background-color: #0077b6;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.social-icons {
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+}
+
+.copyright {
+    font-size: 14px;
+    color: white;
+}
